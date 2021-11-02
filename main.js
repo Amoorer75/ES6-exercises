@@ -45,18 +45,24 @@ console.log(allFoods)
 // 2) define three variables (age, breed, name) outside of the object
 // 3) add those variables to your pet
 // log the most important thing about it: the pet's name 
-const movieCharacter = {
+const movieActress = {
     fullName:'Scarlet Johansson',
     age:'36',
     hometown:'Manhattan, New York', 
 }
-const{fullName,age,hometown} = movieCharacter
+const{fullName,age,hometown} = movieActress;
 console.log(fullName)
 console.log(age)
 console.log(hometown)
 
-const persons = {
-    ...fullName,
-    ...hometown,
-}
-console.log(person)
+let pet = {}
+movieActress = {...movieActress,pet};
+let name = "black Widow";
+let petAge = 4;
+let breed = "ninja cat"
+
+movieActress.pet.Name = Name;
+movieActress.pet.petAge = Age;
+movieActress.pet.Breed = breed;
+
+console.log(pet.Name);
